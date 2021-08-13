@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "ES6", //"commonjs",
+        "lib": [
+            "dom",
+            "ES2015",
+            "ES2016",
+            "ES2017"
+        ],
+        "allowJs": true,
+        "jsx": "react",
+        "sourceMap": true,
+        "rootDir": "./",
+        "outDir": "./build/",
+        "strict": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+    }
+}
